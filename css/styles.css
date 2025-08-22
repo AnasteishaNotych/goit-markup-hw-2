@@ -5,18 +5,23 @@ body {
   letter-spacing: 2px;
   font-weight: 400;
   line-height: 1.5;
+  background-color: #ffffff;
 }
-span {
-  color: #4d5ae5;
+nav {
+  font-weight: 500;
 }
-header .logo-style,
-footer .logo-style {
+.logo-header {
+  color: #2e2f42;
+}
+.logo-style {
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 0.03em;
   line-height: 1.17;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 ul {
   list-style: none;
@@ -24,24 +29,29 @@ ul {
 .link {
   color: #2e2f42;
   text-decoration: none;
-  letter-spacing: 4px;
+  letter-spacing: 0.04em;
 }
 .contacts {
   color: #434455;
+  font-style: normal;
 }
-h2,
-h1 {
-  text-align: center;
-}
-h1 {
+.intro-title {
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
-.intro-section button {
+h2 {
+  text-align: center;
+}
+.intro-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
-  letter-spacing: 4px;
+  letter-spacing: 0.04em;
   font-weight: 500;
 }
 .intro-section {
@@ -53,19 +63,57 @@ h2,
 h3 {
   color: #2e2f42;
 }
-h3,
-nav {
+.advantages-mini-title {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
   font-weight: 500;
 }
 p {
   color: #434455;
-  letter-spacing: 4px;
+  letter-spacing: 0.04em;
 }
-.footer p,
-.footer .logo-style,
-.footer {
-  color: #ffffff;
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+.team-reference {
+  background-color: #ffffff;
+}
+.team-names {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.team-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+footer {
   background-color: #2e2f42;
+}
+.footer .logo-style {
+  letter-spacing: 0.03;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.logo-footer {
+  color: #f4f4fd;
 }
 a:hover,
 a:focus {
