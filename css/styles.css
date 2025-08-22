@@ -26,17 +26,16 @@ nav {
 ul {
   list-style: none;
 }
-.link {
+.navigation {
   color: #2e2f42;
   text-decoration: none;
-  letter-spacing: 0.04em;
-}
-nav ul .link {
   letter-spacing: 0.02em;
 }
-.contacts a {
-  color: #434455;
+.contacts {
   font-style: normal;
+}
+.contact-details {
+  color: #434455;
   letter-spacing: 0.02em;
 }
 .intro-title {
@@ -68,14 +67,23 @@ h3 {
   color: #2e2f42;
 }
 .advantages-mini-title,
-.team-names,
+.team-names {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  font-weight: 500;
+}
 .portfolio-samples {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
   font-weight: 500;
 }
-.advantages-text,
+.advantages-text {
+  color: #434455;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
 .portfolio-text {
   color: #434455;
   letter-spacing: 0.02em;
