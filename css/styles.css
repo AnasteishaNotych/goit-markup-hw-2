@@ -1,0 +1,81 @@
+body {
+  text-align: left;
+  color: #434455;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2;
+  font-weight: 400;
+  line-height: 1.5;
+}
+span {
+  color: #4d5ae5;
+}
+header .logo-style,
+footer .logo-style {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 3;
+  line-height: 1.17;
+}
+ul {
+  list-style: none;
+}
+.link {
+  color: #2e2f42;
+  text-decoration: none;
+  letter-spacing: 4;
+}
+.contacts {
+  color: #434455;
+}
+h2,
+h1 {
+  text-align: center;
+}
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+}
+.intro-section button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+  letter-spacing: 4;
+  font-weight: 500;
+}
+.intro-section {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+nav,
+h2,
+h3 {
+  color: #2e2f42;
+}
+h3,
+nav {
+  font-weight: 500;
+}
+p {
+  color: #434455;
+  letter-spacing: 4;
+}
+.footer p,
+.footer .logo-style,
+.footer {
+  color: #ffffff;
+  background-color: #2e2f42;
+}
+a:hover,
+a:focus,
+.footer .logo-style:hover,
+.footer .logo-style:focus,
+span:hover,
+span:focus {
+  color: #404bbf;
+}
+button:hover,
+button:focus {
+  background-color: #404bbf;
+}
